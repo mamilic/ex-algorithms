@@ -1,0 +1,2 @@
+Write a recursive function that checks whether a string is a palindrome (a palindrome is
+a string that's the same when reads forwards and backwards.)
