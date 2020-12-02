@@ -1,4 +1,4 @@
-package com.company.algorithms.string.matching.algorithm;
+package algorithms.string.matching.algorithm;
 
 public class Solution {
 

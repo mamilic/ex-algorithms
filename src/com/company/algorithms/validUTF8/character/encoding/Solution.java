@@ -1,4 +1,4 @@
-package com.company.algorithms.validUTF8.character.encoding;
+package algorithms.validUTF8.character.encoding;
 
 import java.util.Arrays;
 

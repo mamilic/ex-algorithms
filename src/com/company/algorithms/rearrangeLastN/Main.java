@@ -1,4 +1,4 @@
-package com.company.algorithms.rearrangeLastN;
+package algorithms.rearrangeLastN;
 
 
 public class Main {

@@ -1,4 +1,4 @@
-package com.company.algorithms.number.of.friend.groups;
+package algorithms.number.of.friend.groups;
 
 import java.util.ArrayList;
 import java.util.HashMap;

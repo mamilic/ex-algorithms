@@ -1,4 +1,4 @@
-package com.company.algorithms.recursive.print.reverse.string;
+package algorithms.recursive.print.reverse.string;
 
 public class Solution {
 

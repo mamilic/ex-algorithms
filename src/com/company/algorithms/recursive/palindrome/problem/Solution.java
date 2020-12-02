@@ -1,4 +1,4 @@
-package com.company.algorithms.recursive.palindrome.problem;
+package algorithms.recursive.palindrome.problem;
 
 public class Solution {
 

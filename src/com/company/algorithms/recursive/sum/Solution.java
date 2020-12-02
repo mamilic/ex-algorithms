@@ -1,4 +1,4 @@
-package com.company.algorithms.recursive.sum;
+package algorithms.recursive.sum;
 
 public class Solution {
 
@@ -9,6 +9,6 @@ public class Solution {
     private static int sum(int i) {
         if (i == 0) return 0;
 
-        return sum(i - 1) + i;
+        return sum(i - 1) ;
     }
 }
