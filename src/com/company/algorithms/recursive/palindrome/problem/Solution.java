@@ -3,14 +3,15 @@ package algorithms.recursive.palindrome.problem;
 public class Solution {
 
     public static void main(String[] args) {
-        System.out.println(checkPolindrome("marama", 0));
+        System.out.println(checkPolindrome("able was i ere i saw elba"));
     }
 
-    private static boolean checkPolindrome(String string, int i) {
-        if (i == string.length() / 2) return true;
+    private static boolean checkPolindrome(String string) {
+        if (string.length() == 1) return true;
+        if (string.length() == 2) return string.charAt(0) == string.charAt(1);
 
-        if (string.charAt(i) != string.charAt(string.length() - 1)) return false;
+        if (string.charAt(0) != string.charAt(string.length() - 1)) return false;
 
-        return checkPolindrome(string.substring(i + 1, string.length() - 1), i + 1);
+        return checkPolindrome(string.substring(1, string.length() - 1));
     }
 }
