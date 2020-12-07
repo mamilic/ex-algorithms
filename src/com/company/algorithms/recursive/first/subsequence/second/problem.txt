@@ -1,0 +1,3 @@
+Write a recursive function that, given two strings, returns whether the first string is a
+subsequence of the second. For example, given hac and cathartic, you should return true,
+but given bat and table, you should return false.
